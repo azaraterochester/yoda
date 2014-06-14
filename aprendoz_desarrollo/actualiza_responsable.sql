@@ -1,0 +1,1 @@
+UPDATE insc_persona_grupo_familiar ipg set ipg.responsable = 1 where ((select tiene_responsable(ipg.Grupo_familiar_Id_Grupo_Familiar) = 0) and ((select MAX(p.Tipo_Persona_Id_Tipo_Persona) from PERSONA p where p.Id_Persona = ipg.Persona_Id_Persona) = 10));

@@ -1,0 +1,1 @@
+select * from insc_alum_costo inner join costos on insc_alum_costo.costo_Id_costo = costos.id_costo where costos.nombre_producto like '%BECA%' and insc_alum_costo.SY_Id_SY = 4

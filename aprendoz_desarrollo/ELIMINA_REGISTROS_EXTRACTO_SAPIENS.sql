@@ -1,0 +1,1 @@
+DELETE FROM importacion_extracto where importacion_extracto.fecha_a <= '2013-01-01' 

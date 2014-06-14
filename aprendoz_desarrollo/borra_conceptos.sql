@@ -1,0 +1,1 @@
+delete from insc_alum_costo where insc_alum_costo.SY_Id_SY = 5 and insc_alum_costo.costo_Id_costo >= 2446 and insc_alum_costo.costo_Id_costo <= 2471 

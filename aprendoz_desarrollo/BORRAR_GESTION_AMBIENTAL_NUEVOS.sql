@@ -1,0 +1,2 @@
+/*DELETE from insc_alum_costo where (select codigo(insc_alum_costo.Persona_Id_Persona) BETWEEN 12000 and 13999) and (insc_alum_costo.costo_Id_costo BETWEEN 1610 AND 1620)*/
+DELETE from insc_alum_costo where (select codigo(insc_alum_costo.Persona_Id_Persona) BETWEEN 12000 and 13999) and (insc_alum_costo.costo_Id_costo BETWEEN 1868 AND 1878

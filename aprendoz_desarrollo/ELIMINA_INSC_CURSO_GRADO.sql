@@ -1,0 +1,1 @@
+DELETE from Insc_Alum_Curso where Insc_Alum_Curso.Curso_Id_Curso >= 510101 and Insc_Alum_Curso.Curso_Id_Curso <= 540403 and Insc_Alum_Curso.SY_Id_SY = 4

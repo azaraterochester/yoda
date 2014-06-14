@@ -1,0 +1,1 @@
+update Insc_Alum_Asig set Porcentaje = 0.0, logrados = 0, Calificacion = 0.0, calif_char = "BAJO" where Calificacion is null and Periodo_Id_Periodo = 7

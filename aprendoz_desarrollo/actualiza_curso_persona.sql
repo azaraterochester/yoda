@@ -1,0 +1,1 @@
+UPDATE PERSONA set Insc_Alum_Curso_Id_Insc_Alum_Curso = (select curso_actual(PERSONA.Id_Persona,3)) where PERSONA.Tipo_Persona_Id_Tipo_Persona = 1

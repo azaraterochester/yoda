@@ -1,0 +1,14 @@
+SELECT importacion_davivienda_copy.tarjeta, 
+	importacion_davivienda_copy.nombresocio, 
+	importacion_davivienda_copy.numeroidentificacion, 
+	importacion_davivienda_copy.estado, 
+	importacion_davivienda_copy.fecha_creacion, 
+	importacion_davivienda_copy.fecha_modificacion, 
+	importacion_davivienda.tarjeta, 
+	importacion_davivienda.nombresocio, 
+	importacion_davivienda.numeroidentificacion, 
+	importacion_davivienda.estado, 
+	importacion_davivienda.fecha_creacion, 
+	importacion_davivienda.fecha_modificacion
+FROM importacion_davivienda_copy LEFT OUTER JOIN importacion_davivienda ON importacion_davivienda.tarjeta = importacion_davivienda_copy.tarjeta AND importacion_davivienda.numeroidentificacion = importacion_davivienda_copy.numeroidentificacion
+GROUP BY importacion_davivienda_copy.numeroidentificacion

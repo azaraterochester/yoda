@@ -1,0 +1,1 @@
+UPDATE PERSONA p set p.Fecha_Nacimiento = (SELECT MAX(pbu.Fecha_Nacimiento) from bu20130125.PERSONA pbu where pbu.Codigo = p.Codigo)

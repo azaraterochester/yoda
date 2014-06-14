@@ -1,0 +1,11 @@
+UPDATE importacion_cartera set numero_mes = 1 where mensualidad = "SEPTIEMBRE";
+UPDATE importacion_cartera set numero_mes = 2 where mensualidad = "OCTUBRE";
+UPDATE importacion_cartera set numero_mes = 3 where mensualidad = "NOVIEMBRE";
+UPDATE importacion_cartera set numero_mes = 4 where mensualidad = "DICIEMBRE";
+UPDATE importacion_cartera set numero_mes = 5 where mensualidad = "ENERO";
+UPDATE importacion_cartera set numero_mes = 6 where mensualidad = "FEBRERO";
+UPDATE importacion_cartera set numero_mes = 7 where mensualidad = "MARZO";
+UPDATE importacion_cartera set numero_mes = 8 where mensualidad = "ABRIL";
+UPDATE importacion_cartera set numero_mes = 9 where mensualidad = "MAYO";
+UPDATE importacion_cartera set numero_mes = 10 where mensualidad = "JUNIO";
+UPDATE importacion_cartera set numero_mes = 11 where mensualidad = "JULIO";

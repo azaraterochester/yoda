@@ -1,0 +1,1 @@
+UPDATE insc_persona_grupo_familiar ipg set ipg.responsable = 1 where (ipg.Tipo_Persona_Id_Tipo_Persona = 2 or ipg.Tipo_Persona_Id_Tipo_Persona= 10) and (select tiene_responsable(ipg.Grupo_familiar_Id_Grupo_Familiar) = 0);

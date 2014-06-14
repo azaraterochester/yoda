@@ -1,0 +1,1 @@
+delete from insc_alum_costo where insc_alum_costo.SY_Id_SY <> (select costos.SY_Id_SY from costos where costos.id_costo = insc_alum_costo.costo_Id_costo)
