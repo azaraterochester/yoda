@@ -1,4 +1,6 @@
-SELECT vista_alumnos_activos.School_year AS periodoescolar, 
+SELECT 
+	vista_alumnos_activos.Id_Persona,
+	vista_alumnos_activos.School_year AS periodoescolar, 
 	vista_alumnos_activos.Nivel, 
 	vista_alumnos_activos.Grado, 
 	vista_alumnos_activos.Curso, 
@@ -46,5 +48,7 @@ WHERE (PERSONA.Tipo_Persona_Id_Tipo_Persona = 2
 	or PERSONA.Tipo_Persona_Id_Tipo_Persona = 7)
 	and promocion.SY_Id_Sy = 4
 	and promocion.autorizado_academico = 1
-	and promocion.aprobado = 0
+	and promocion.autorizado_cra = 1
+	and promocion.autorizado_financiera = 1
+	/*and promocion.aprobado = 0*/
 	and matricula.SY_Id_SY = 4
