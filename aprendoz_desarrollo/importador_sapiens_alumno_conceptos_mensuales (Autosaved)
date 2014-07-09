@@ -17,4 +17,4 @@ and costos.anual = 0
 and insc_alum_costo.SY_Id_SY = 5
 and costos.nombre_producto NOT LIKE '%BECA%'
 and costos.nombre_producto NOT LIKE '%MENSAJES SMS%'
-ORDER BY costos.anual, persona.Codigo
+ORDER BY persona.Codigo

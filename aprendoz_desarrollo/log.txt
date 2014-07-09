@@ -1,6 +1,6 @@
-[2014-06-16 14:31:20] [Msg] [Imp] Import start
-[2014-06-16 14:31:20] [Msg] [Imp] Import type - XLS
-[2014-06-16 14:31:20] [Msg] [Imp] Import from - /Users/alejandro/Google Drive/PSE/FACTURACION160614.xls
-[2014-06-16 14:31:31] [Msg] [Imp] Import table [facturacion_sapiens]
-[2014-06-16 14:31:32] [Msg] [Imp] Processed: 39855, Added: 39855, Updated: 0, Deleted: 0, Error: 0
-[2014-06-16 14:31:32] [Msg] [Imp] Finished - Successfully
+[2014-06-17 17:12:00] [Msg] [Imp] Import start
+[2014-06-17 17:12:00] [Msg] [Imp] Import type - XLS
+[2014-06-17 17:12:00] [Msg] [Imp] Import from - /Users/alejandro/Documents/BECA MATRICULAS.xls
+[2014-06-17 17:12:00] [Msg] [Imp] Import table [costos]
+[2014-06-17 17:12:01] [Msg] [Imp] Processed: 28, Added: 28, Updated: 0, Deleted: 0, Error: 0
+[2014-06-17 17:12:01] [Msg] [Imp] Finished - Successfully

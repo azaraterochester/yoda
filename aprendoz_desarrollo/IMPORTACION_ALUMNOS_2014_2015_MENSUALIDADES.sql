@@ -1,3 +1,11 @@
+select 
+vista_alumnos_activos.Grado, 
+vista_alumnos_activos.Curso, 
+vista_alumnos_activos.Apellido1, 
+vista_alumnos_activos.Apellido2,
+consulta.*
+from vista_alumnos_activos left join (
+
 SELECT DISTINCT PERSONA.Codigo as codalumno, 
 	costos.codigo as concep, 
 	costos.nombre_producto as nconcep, 
@@ -17,4 +25,8 @@ and costos.anual = 0
 and insc_alum_costo.SY_Id_SY = 5
 and costos.nombre_producto NOT LIKE '%BECA%'
 and costos.nombre_producto NOT LIKE '%MENSAJES SMS%'
-ORDER BY costos.anual, persona.Codigo
+ORDER BY persona.Codigo
+
+
+) as consulta on consulta.codalumno = vista_alumnos_activos.Codigo
+order by vista_alumnos_activos.Id_Curso, vista_alumnos_activos.Apellido1, vista_alumnos_activos.Apellido2, vista_alumnos_activos.Codigo

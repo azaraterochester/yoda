@@ -39,4 +39,6 @@ WHERE (PERSONA.Tipo_Persona_Id_Tipo_Persona = 2
 	or PERSONA.Tipo_Persona_Id_Tipo_Persona = 6 
 	or PERSONA.Tipo_Persona_Id_Tipo_Persona = 8 
 	or PERSONA.Tipo_Persona_Id_Tipo_Persona = 7) 
-	and matricula.SY_Id_SY = 4
+	and matricula.SY_Id_SY = sy_actual()
+
+	
