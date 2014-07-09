@@ -8,6 +8,10 @@
 	<string>{{10, 10}, {193.77734, 375.06641}}</string>
 	<key>Tipo_Persona</key>
 	<string>{{233.11719, 373.22266}, {150, 190}}</string>
+	<key>curso</key>
+	<string>{{550, 10}, {150, 190}}</string>
+	<key>grado</key>
+	<string>{{730, 10}, {150, 190}}</string>
 	<key>insc_persona_grupo_familiar</key>
 	<string>{{416.5, 264.13281}, {150, 190}}</string>
 	<key>matricula</key>
